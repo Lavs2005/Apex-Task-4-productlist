@@ -15,9 +15,9 @@ This project is a responsive and interactive **Product Listing Webpage** built u
 
 ---
 
-## 🖼️ Demo Preview
+## 🖼️ Demo 
 
-![Screenshot of Product Page](screenshots/demo.png)
+https://lavs2005.github.io/Apex-Task-4-productlist/
 
 ---
 
@@ -34,10 +34,14 @@ This project is a responsive and interactive **Product Listing Webpage** built u
 To run this project locally:
 
 1. Clone the repository:
+   
    git clone https://github.com/your-username/product-listing-page.git
-2. Navigate to the project folder:
+
+3. Navigate to the project folder:
+
    cd Apex task-4 productlist
-3. Open index.html in your browser.
+
+5. Open index.html in your browser.
 
 ---
 
