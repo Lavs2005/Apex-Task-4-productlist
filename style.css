@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(to right, #2c3e50, #4ca1af); /* deep blue gradient */
+  color: #f1f1f1;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #1e1e2f; /* dark panel background */
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffd369; /* golden title */
+}
+
+.controls {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #555;
+  font-size: 16px;
+  background-color: #2f3542; /* dark dropdown */
+  color: #f1f1f1;
+  transition: border 0.3s;
+}
+
+select:focus {
+  border-color: #ffd369;
+  outline: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* 🔒 same layout */
+  gap: 20px;
+}
+
+.card {
+  background: #37474f; /* dark bluish card */
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #ffab91; /* warm salmon */
+}
+
+.card p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #eeeeee;
+}
